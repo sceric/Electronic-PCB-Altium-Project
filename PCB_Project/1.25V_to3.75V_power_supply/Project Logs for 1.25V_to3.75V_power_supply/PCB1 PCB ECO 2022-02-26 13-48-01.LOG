@@ -1,0 +1,30 @@
+Added Component: Designator=IC2(MAXIM TDFN-10 3X3MM T1033-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheets.maximintegrated.com/en/ds/MAX9705.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "//digikey.com/product-detail/en/maxim-integrated/MAX9705CETB-T/MAX9705CETB-TDKR-ND/2690228"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "10-WFDFN Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "Depop, Differential Inputs, Short-Circuit and Thermal Protection, Shutdown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "12/3/2019 11:18:56 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Maxim Integrated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Power x Channels @ Load"; Value = "2.3W x 1 @ 4Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 85°C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "1-Channel (Mono)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "10-WFDFN Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "MAX9705CETB+T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "10-TDFN-EP (3x3)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "MAX9705CETB+TDKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Class D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "2.5V ~ 5.5V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DP+ Pin=IC1-2
+Added Pin To Net: NetName=DP- Pin=IC1-3
+Added Member To Class: ClassName=Sheet1 Member=Component IC2 MAX9705CETB+T
+Change Room Scope: Old Scope=InComponent('No Component') New Scope=InComponentClass('Sheet1')

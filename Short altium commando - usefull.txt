@@ -1,0 +1,9 @@
+Altium comando
+
+PCB footprint:
+
+Select filter: All object
+MarkeraR: shift+click ---markera
+Copierar: ctrl+c 
+Demarkera (click on the canvas)
+Klistra: ctrl+v

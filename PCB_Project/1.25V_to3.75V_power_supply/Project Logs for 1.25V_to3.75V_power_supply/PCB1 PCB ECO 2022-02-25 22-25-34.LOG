@@ -1,0 +1,68 @@
+Added Component: Designator=IC1(Littelfuse_SR05_MFG)
+Add component (AddParameter): Name = "Category"; Value = "ESD Suppressors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture Name"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "SP3003-02CTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT143"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SPN"; Value = "576-SR05-02CTG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J1(WURTH_632723100011)
+Add component (AddParameter): Name = "Category"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Wurth Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "632723100011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD_PTH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "USB_Type_C"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0603_R)
+Add component (AddParameter): Name = "Category"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1608 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-075K11L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerRating"; Value = "0.100W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.0089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoefficient"; Value = "100ppm/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureRange"; Value = "-55C ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k11"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0603_R)
+Add component (AddParameter): Name = "Category"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1608 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0603FR-075K11L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerRating"; Value = "0.100W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.0089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoefficient"; Value = "100ppm/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureRange"; Value = "-55C ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5k11"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=VCC Pin=IC1-4
+Added Pin To Net: NetName=GND Pin=J1-A1
+Added Pin To Net: NetName=VCC Pin=J1-A4
+Added Pin To Net: NetName=NetJ1_A5 Pin=J1-A5
+Added Pin To Net: NetName=DP+ Pin=J1-A6
+Added Pin To Net: NetName=DP- Pin=J1-A7
+Added Pin To Net: NetName=VCC Pin=J1-A9
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=GND Pin=J1-B1
+Added Pin To Net: NetName=VCC Pin=J1-B4
+Added Pin To Net: NetName=NetJ1_B5 Pin=J1-B5
+Added Pin To Net: NetName=DP+ Pin=J1-B6
+Added Pin To Net: NetName=DP- Pin=J1-B7
+Added Pin To Net: NetName=VCC Pin=J1-B9
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=J1-G1
+Added Pin To Net: NetName=GND Pin=J1-G2
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Pin To Net: NetName=GND Pin=J1-S3
+Added Pin To Net: NetName=GND Pin=J1-S4
+Added Pin To Net: NetName=GND Pin=J1-S5
+Added Pin To Net: NetName=GND Pin=J1-S6
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetJ1_B5 Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=NetJ1_A5 Pin=R2-2
+Added Member To Class: ClassName=Sheet1 Member=Component IC1 SP3003-02CTG
+Added Member To Class: ClassName=Sheet1 Member=Component J1 USB_Type_C
+Added Member To Class: ClassName=Sheet1 Member=Component R1 5k11
+Added Member To Class: ClassName=Sheet1 Member=Component R2 5k11
