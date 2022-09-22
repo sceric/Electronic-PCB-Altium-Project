@@ -1,0 +1,8 @@
+Net Status Report
+Filename     : D:\01.Working\Elektronik\Electronic-PCB-Altium-Project\PCB_Project\STM32F4-Reference-PCB-1\PCB.PcbDoc
+Date         : 2022-09-18
+Time         : 23:35:45
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+count : 0
