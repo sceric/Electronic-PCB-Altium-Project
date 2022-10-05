@@ -1,0 +1,9 @@
+Record=TopLevelDocument|FileName=[01] - COVER PAGE.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[02] - BLOCK DIAGRAM.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[03] - POWER SUPPLIES.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[04] - CPU POWER.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[05] - CPU EBI INTERFACE.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[06] - RAM DDR2.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[07] - NAND FLASH.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[08] - CONNECTORS.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=[01] - COVER PAGE.SchDoc|FileName=[09] - CPU GPIO.SchDoc|SheetNumber=9

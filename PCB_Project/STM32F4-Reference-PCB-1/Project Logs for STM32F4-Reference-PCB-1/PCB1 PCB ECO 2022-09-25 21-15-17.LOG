@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=C1-1
+Removed Pin From Net: NetName=GND Pin=C1-2
+Added Component: Designator=C1(CAP ALUM 10.3MM)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series_Type_V.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Digi-Key listing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/EEE-1HA101P/PCE3916TR-ND/766083"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "Radial, Can - SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Impedance"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifetime @ Temp"; Value = "2000 Hrs @ 85C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "EEE-1HA101P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "7398"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.3144"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current"; Value = "250mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "PCE3916TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureRange"; Value = "-40C ~ 85C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Automotive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Member To Class: ClassName=Schematic Member=Component D2 Red
+Added Member To Class: ClassName=Schematic Member=Component R3 280k
+Added Member To Class: ClassName=Schematic Member=Component R4 2K
+Added Member To Class: ClassName=Schematic Member=Component R5 10k
+Added Member To Class: ClassName=Schematic Member=Component R6 3.3k

@@ -1,0 +1,113 @@
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R6
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Added Component: Designator=BT1(BAT_BAT-HLD-001)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BAT-HLD-001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D2(LED 0603/1608 RED)
+Add component (AddParameter): Name = "Colour"; Value = "Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.osram-os.com/Graphics/XPic9/00128792_0.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Digi-Key Listing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.digikey.ca/product-detail/en/LS%20Q976-NR-1/475-2512-2-ND/1227986"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current (Test)"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Transparency"; Value = "Diffused"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "OSRAM Opto Semiconductors Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela"; Value = "104mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LS Q976-NR-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "7063"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.0654"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "475-2512-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "160"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Forward"; Value = "2V"; VariantName = "[No Variations]"
+Added Component: Designator=IC2(TI PVSON-10 3x3MM DRC)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/lit/ds/symlink/tps61020.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Digi-Key Listing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/product-detail/en/TPS61026DRCR/TPS61026DRCR-ND/1672116"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Output"; Value = "1.5A (Switch)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "10-VFDFN Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency - Switching"; Value = "600kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Function"; Value = "Step-Up"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40C ~ 85C (TA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Configuration"; Value = "Positive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "Fixed"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TPS61026DRCR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "9353"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.9562"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "TPS61026DRCR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input (Max)"; Value = "5.5V"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES 1206/3216)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://industrial.panasonic.com/lecs/www-data/pdf/AOA0000/AOA0000CE26.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Digi-Key listing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/ERA-8AEB2803V/P280KBCTR-ND/3070936"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA-8AEB2803V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "3611"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerRating"; Value = "0.25W, 1/4W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.1954"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "P280KBCTR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoefficient"; Value = "25ppm/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureRange"; Value = "-55C ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Thin Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "280k"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES 0603/1608)
+Add component (AddParameter): Name = "Device Package"; Value = "1608 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Uniohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603S8J0202"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerRating"; Value = "0.125W, 1/8W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.0089"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoefficient"; Value = "100ppm/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureRange"; Value = "-55C ~ 155C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BT1-N1
+Added Pin To Net: NetName=5V Pin=D2-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD3_2
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD4_2
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetR5_1
+Added Pin To Net: NetName=NetBT1_P1 Pin=BT1-P1
+Added Pin To Net: NetName=NetBT1_P1 Pin=BT1-P2
+Added Pin To Net: NetName=NetBT1_P1 Pin=IC1-3
+Added Net: Name=NetBT1_P1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R3-1
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetIC1_1 Pin=IC1-1
+Added Pin To Net: NetName=NetIC1_1 Pin=R3-2
+Added Net: Name=NetIC1_1
+Added Pin To Net: NetName=NetIC1_5 Pin=IC1-5
+Added Pin To Net: NetName=NetIC1_5 Pin=R4-2
+Added Net: Name=NetIC1_5
+Added Member To Class: ClassName=Schematic Member=Component BT1 BAT-HLD-001
+Added Member To Class: ClassName=Schematic Member=Component C1 22µF
+Added Member To Class: ClassName=Schematic Member=Component C2 4.7uF
+Added Member To Class: ClassName=Schematic Member=Component C3 0.10uF
+Added Member To Class: ClassName=Schematic Member=Component C4 0.10uF
+Added Member To Class: ClassName=Schematic Member=Component D1 1.5SMC24A
+Added Member To Class: ClassName=Schematic Member=Component D2 Red
+Added Member To Class: ClassName=Schematic Member=Component D4 Green
+Added Member To Class: ClassName=Schematic Member=Component IC2 TPS61026DRCR
+Added Member To Class: ClassName=Schematic Member=Component R4 2K
+Added Member To Class: ClassName=Schematic Member=Component R7 280k
+Added Member To Class: ClassName=Schematic Member=Component R8 280k
