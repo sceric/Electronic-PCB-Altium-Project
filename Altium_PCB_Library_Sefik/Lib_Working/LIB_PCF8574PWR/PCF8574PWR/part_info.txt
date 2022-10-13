@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=PCF8574PWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=20
+Version=3.1
+Released=2016-06-22 07:36:10
+Downloaded=2022-10-12 19:52:08
+3D=Y

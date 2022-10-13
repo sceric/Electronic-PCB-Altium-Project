@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCF8574PWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "PCF8574PWR" (!) = "", "SOP65P640X120-20N", "Small Outline Packages", "595-PCF8574PWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCF8574PWR?qs=X1HXWTtiZ0T3gnyuO%2Fq4CA%3D%3D", "Remote I/O Expander 20-Pin TSSOP Texas Instruments PCF8574PWR I/O Expander, 20-Pin TSSOP", "http://www.ti.com/lit/ds/symlink/pcf8574.pdf", "1.2 mm"
+END_PART
+
+END.

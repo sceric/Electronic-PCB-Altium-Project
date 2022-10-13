@@ -1,0 +1,32 @@
+Component Name : LCD-20X4B
+
+Part Count : 2
+
+Part : DS?
+     Pins - (Normal) : 0
+          Hidden Pins : 
+
+Part : DS?
+     Pins - (Normal) : 20
+          E              6              Input
+          RS             4              Input
+          R/W            5              Input
+          A              15             Passive
+          K              16             Passive
+          SHIELD         S1             Passive
+          SHIELD         S2             Passive
+          SHIELD         S3             Passive
+          SHIELD         S4             Passive
+          VDD            2              Power
+          V0             3              Power
+          DB0            7              I/O
+          DB1            8              I/O
+          DB2            9              I/O
+          DB3            10             I/O
+          DB4            11             I/O
+          DB5            12             I/O
+          DB6            13             I/O
+          DB7            14             I/O
+          VSS            1              Power
+          Hidden Pins : 
+

@@ -1,0 +1,16 @@
+.PCF8574PWR :1 ;Remote I/O Expander 20-Pin TSSOP Texas Instruments PCF8574PWR I/O Expander, 20-Pin TSSOP
+SOP65P640X120-20N
+*STM IC
+*NGS
+*PLB 1="'INT'" 2="SCL" 3="NC_1" 4="SDA" 5="VCC" 6="A0" 7="A1" 8="NC_2" 9="A2" 10="P0" 11="P1" 12="P2" 13="NC_3" 14="P3" 15="GND" 16="P4" 17="P5" 18="NC_4" 19="P6" 20="P7"
+*MXP 20
+*DFN PCF8574PWR
+~!Mouser Part Number (595-PCF8574PWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCF8574PWR?qs=X1HXWTtiZ0T3gnyuO%2Fq4CA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (PCF8574PWR)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/pcf8574.pdf)
+~!Height (1.2mm)
+~!3D_Model (PCF8574PWR)
+PCF8574PWR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 

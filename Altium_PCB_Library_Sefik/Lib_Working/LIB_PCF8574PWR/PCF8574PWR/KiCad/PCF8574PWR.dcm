@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF8574PWR
+D Remote I/O Expander 20-Pin TSSOP Texas Instruments PCF8574PWR I/O Expander, 20-Pin TSSOP
+K
+F http://www.ti.com/lit/ds/symlink/pcf8574.pdf
+$ENDCMP
+#
+#End Doc Library
