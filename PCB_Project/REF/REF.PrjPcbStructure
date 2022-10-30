@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=REF_CPU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=REF_CPU.SchDoc|FileName=REF_LCD.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=REF_CPU.SchDoc|FileName=REF_Power.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=REF_CPU.SchDoc|FileName=REF_Sensors.SchDoc|SheetNumber=4

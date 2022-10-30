@@ -40,6 +40,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=LCD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NLWOUSAD
+
+[Document2]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -56,7 +73,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYOCEKZU
 
-[Document2]
+[Document3]
 DocumentPath=CPU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -73,7 +90,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DDDYYGLK
 
-[Document3]
+[Document4]
 DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LFBAOZRV
 
-[Document4]
+[Document5]
 DocumentPath=PCB_FlightBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +124,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TEFGGDBH
 
-[Document5]
+[Document6]
 DocumentPath=FlightBoard.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document7]
 DocumentPath=Test.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
