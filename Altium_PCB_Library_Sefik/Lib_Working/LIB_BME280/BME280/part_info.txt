@@ -1,0 +1,9 @@
+Manufacturer=Bosch Sensortec
+PartNumber=BME280
+PartCategory=Hygrometer
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2016-05-23 16:10:47
+Downloaded=2022-11-02 21:58:03
+3D=N

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STTS75M2F'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STTS75M2F" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "511-STTS75M2F", "https://www.mouser.com/Search/Refine.aspx?Keyword=511-STTS75M2F", "STTS75M2F, 12bit Temperature Sensor +/-3C Serial-I2C 2.7 to 5.5V 8-Pin SOIC", "https://componentsearchengine.com/Datasheets/1/STTS75M2F.pdf", "1.75 mm"
+END_PART
+
+END.
