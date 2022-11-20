@@ -1,8 +1,8 @@
-Record=TopLevelDocument|FileName=REF_Connectors.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_CPU.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Diverse.SchDoc|SheetNumber=7
+Record=TopLevelDocument|FileName=REF_Connectors.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_CPU_STM32_A.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_CPU_STM32_B1.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_CPU_STM32_B2.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Diverse.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_LCD.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_LED.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Power.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Sensor_TempHumPress.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Sensors.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=REF_Connectors.SchDoc|FileName=REF_Sensors.SchDoc|SheetNumber=6

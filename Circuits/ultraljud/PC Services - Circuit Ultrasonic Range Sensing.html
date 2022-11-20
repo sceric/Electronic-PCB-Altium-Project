@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0073)http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="revisit-after" content="2">
+<meta name="Robots" content="All">
+<meta name="Rating" content="General">
+<meta name="Distribution" content="Global">
+<meta name="Copyright" content="2017 onwards PC Services, Reading UK">
+<meta name="Author" content="Paul Carpenter - PC Services">
+<meta name="description" content="Circuit and description for Ultrasonic distance sensor (HC-SR04) as of Jan 2017. Timing from oscilloscope screen shots - PC Services">
+<meta name="keywords" content="Arduino, Arduino Uno, Arduino Mega, Arduino Due, Genuino, Genuino Uno, Genuino Due, Genuino mega, Ultrasonic, range finder, distance sensor, HC-SRO4, circuit, examples, circuit description, timings, scope shot, PC Services, Electronics, software, embedded design, system programming, tuning, installation, networks, web sites, web software, PHP, javascript, HTML, advice, home, small businesses, Reading, Berks, Thames Valley, South East, UK">
+<title>PC Services - Circuit Ultrasonic Range Sensing</title>
+<link rel="stylesheet" href="./PC Services - Circuit Ultrasonic Range Sensing_files/pcser.css" type="text/css">
+<link rel="contents" href="http://www.pcserviceselectronics.co.uk/">
+<link rel="start" href="http://www.pcserviceselectronics.co.uk/">
+<link rel="index" href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/index.php">
+<link rel="Next" href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/advanced.php">
+<link rel="prev" href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/betterecho.php">
+<link rel="stylesheet" href="./PC Services - Circuit Ultrasonic Range Sensing_files/lightbox.css" type="text/css" media="screen">
+<script type="text/javascript" src="./PC Services - Circuit Ultrasonic Range Sensing_files/jquery-1.11.0.min.js.nedladdning"></script>
+<script type="text/javascript" src="./PC Services - Circuit Ultrasonic Range Sensing_files/lightbox.js.nedladdning"></script>
+</head>
+
+<body style="">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><h1 class="logo"><a href="http://www.pcserviceselectronics.co.uk/index.php">PC Services</a></h1>
+        <h3 class="sub-logo"><i>"From Payroll to Body Scanners"</i></h3>
+        <p class="sub-logo">Established 1994</p></td>
+    <td> &nbsp; </td>
+    <td><h1 class="title">PC Services (Electronics)</h1>
+        <h3 class="sub-title">Circuit Diagram Ultrasonic Distance Sensor HC-SR04</h3></td>
+    <td><p class="tel-title">Tel: 0118 946 3634<br><a href="http://www.pcserviceselectronics.co.uk/contact.php">Email</a></p>
+        <p align="center"><a href="https://www.linkedin.com/in/paul-carpenter-99343b100/"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/linkedin.gif" border="0" width="60" height="62" alt="linked-in profile" title="linked-in"></a>
+          <a href="http://www.facebook.com/pcservicesreading/"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/facebook.gif" border="0" width="59" height="62" alt="facebook profile" title="facebook"></a></p></td>
+  </tr>
+</tbody></table>
+<table border="0" width="100%" cellspacing="1" cellpadding="3">
+  <tbody><tr>
+    <td class="noprint" nowrap="" valign="top">
+       <table align="left" border="0" cellspacing="1" cellpadding="4">
+         <tbody><tr>
+           <td nowrap="" class="sep">&nbsp;&nbsp;&nbsp;The Company&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../index.php&#39;">&nbsp;&nbsp;&nbsp;Home&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../about.php&#39;">&nbsp;&nbsp;&nbsp;About PC Services&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../services/index.php&#39;">+&nbsp;Services&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../links.php&#39;">&nbsp;&nbsp;&nbsp;Customer Links&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../contact.php&#39;">&nbsp;&nbsp;&nbsp;Contact us&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="sep">&nbsp;&nbsp;&nbsp;Resources / Examples&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../LogicCell/index.php&#39;">+&nbsp;LogicCell Module&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../school/index.php&#39;">+&nbsp;School Projects&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../arduino/index.php&#39;"> -&nbsp;&nbsp;Arduino and Custom Shields&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../box.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arduino in a Box&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../schedule.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Scheduler&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../lcd.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Liquid Crsytal&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../library.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Libraries&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="sep">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examples&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../Ultrasonic/index.php&#39;">&nbsp;&nbsp; -&nbsp;&nbsp;Ultrasonic Distance Sensor&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;simpleecho.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Echo Example&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;betterecho.php&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Better Echo Example&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Electronics&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../picustom/index.php&#39;">&nbsp;&nbsp;&nbsp;Raspberry Pi Custom boards&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../pi/index.php&#39;">+&nbsp;Raspberry Pi GPIO Expansion&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../php-tips/index.php&#39;">+&nbsp;PHP Tips and Tricks&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../fonts/index.php&#39;">+&nbsp;Timing Font&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../eagle/index.php&#39;">+&nbsp;Eagle Libraries&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../eagleulp/index.php&#39;">&nbsp;&nbsp;&nbsp;Eagle ULP&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../ftdi/index.php&#39;">+&nbsp;FTDI - Examples&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../articles/index.php&#39;">+&nbsp;Articles&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="sep">&nbsp;&nbsp;&nbsp;Commentaries &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../random.php&#39;">&nbsp;&nbsp;&nbsp;Random Thoughts&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../odds/creditcard.php&#39;">&nbsp;&nbsp;&nbsp;Online Credit Cards&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;http://www.badweb.org.uk/&#39;">&nbsp;&nbsp;&nbsp;Bad Web site design&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../odds/partp.php&#39;">&nbsp;&nbsp;&nbsp;Part P - Regulations&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="sep">&nbsp;&nbsp;&nbsp;Personal&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../fun/index.php&#39;">+&nbsp;Some Fun Things&nbsp;</td>
+         </tr>
+         <tr>
+           <td nowrap="" class="menu" style="cursor:pointer" onclick="location.href=&#39;../../other.php&#39;">+&nbsp;Other Activities&nbsp;</td>
+         </tr>
+      </tbody></table>
+    </td>
+    <td align="left" width="90%" valign="top"><a name="#top"></a><h2 class="section-title">Circuit Ultrasonic Range Sensing</h2>
+    <p class="question">Since my original findings some more detailed analysis has revised my analysis and not be swayed by other people's analysis.
+       Some parts have been changed and the change is shown.</p>
+    <p>I had a batch of these boards to test at least one was known to be faulty, so I did some work to get the tools to test and fix these boards,
+       which resulted in these pages for students and others to follow. This section details with the electronics such items as</p>
+    <ul>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#overview">Overview</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#timings">Measured Timings on HC-SR04</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#version">Version of HC-SRO4</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#circuit">HC-SRO4 Circuit Diagram</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#description">HC-SRO4 Circuit Description</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#faults">Known Hardware Faults On Faulty Units</a></li>
+    </ul>
+    <p>Previous Pages cover</p>
+    <ul>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/index.php">Introduction and physics using Ultrasonics</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/simpleecho.php">Arduino based example - Simple Version</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/betterecho.php">Arduino based example - Better Example with more details</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/advanced.php">Advanced and deeper analysis of the Ultrasonics</a></li>
+    </ul>
+    <a name="overview"></a><h3>Overview</h3>
+    <p>First thing to understand is that the order of events is</p>
+    <ol>
+      <li>Micro sends a trigger pulse to the unit to start a measurement, which <b>INSIDE</b> the unit
+        <ol>
+          <li>Sends a burst of 8 x 40 kHz pulses via Ultrasonic sender</li>
+          <li>Sets an Echo output signal <b>HIGH</b></li>
+          <li>In the real world the sound wave is sent out and reflected back off objects and the <b>FIRST</b> reflection back (echo) is deemed as the
+              <b>NEAREST</b> object (<strike>other echoes may be received</strike> further oscillations of the sensor RX and possibly TX, are seen after
+              this, but are ignored).</li>
+          <li>The <strike>first echo</strike> echo oscillations will hopefully at end of 8th cycle cause the unit to set the Echo output signal <b>LOW</b></li>
+        </ol>
+       </li><li>Micro has to time how long the Echo signal from the unit is high to determine the time of the echo</li>
+       <li>Micro can then convert time of echo to distance away, knowing the time is time to the <b>NEAREST</b> object and back again (round trip)</li>
+    </ol>
+    <p>This round trip or echo is also known as a PING from submarine and sea depth sensing.</p>
+    <table width="100%" border="0">
+     <caption><b>Signals on HC-SR04</b><!--?CAPTION-->
+     </caption><tbody><tr>
+       <td align="center">
+<a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/General-Timing.png" data-lightbox="maingallery" data-title="Scope shot of signal timing"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/General-Timing.png" width="480" height="234" border="0" alt="Scope shot of signal timing" title="Scope shot of signal timing (Gallery Image - 3 of 6)"></a>
+            <br>Scope shot of signal timing
+</td>
+       <td><p>Picture Left is a scope screen shot showing the external and internal signals for this process, where - </p>
+           <ul>
+             <li>TRIG (Yellow) and ECHO (Magenta) are the signals between unit and micro,</li>
+             <li>TX (Cyan) and TX- (Green) are the internal signals of the burst being sent.</li>
+           </ul></td>
+     </tr>
+    </tbody></table>
+    <p align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></p>
+    <a name="timings"></a><h3>Measured Timings on HC-SR04</h3>
+    <p>This section breaks down the timings shown in above picture to show how the timings are made up, from images like the ones below. The detailed
+       timings are shown for an object 9.5 cm away -</p>
+    <table width="80%" align="center" border="0">
+      <caption><b>Timings from oscilloscope</b></caption>
+      <tbody><tr>
+        <td><b>Start</b></td>
+        <td><b>End</b></td>
+        <td><b>Time µs</b></td>
+        <td><b>Comment</b></td>
+      </tr>
+      <tr>
+        <td>TRIG rising</td>
+        <td>TRIG falling</td>
+        <td>12 </td>
+        <td>Trigger pulse</td>
+      </tr>
+      <tr>
+        <td>TRIG falling</td>
+        <td>TX Start</td>
+        <td>248</td>
+        <td>Start of Ultrasonic Transmit</td>
+      </tr>
+      <tr>
+        <td>TX Start</td>
+        <td>TX End</td>
+        <td>200</td>
+        <td>Width of Ultrasonic Transmit </td>
+      </tr>
+      <tr>
+        <td>TX Start</td>
+        <td>ECHO rising </td>
+        <td>202</td>
+        <td>Start of Ultrasonic Transmit to start of measure</td>
+      </tr>
+      <tr>
+        <td>TRIG falling</td>
+        <td>ECHO rising </td>
+        <td>450</td>
+        <td>Start of Wait for RX</td>
+      </tr>
+    </tbody></table>
+    <br>
+    <table width="100%" align="center" border="0" cellspacing="10" cellpadding="0">
+      <caption><b>Example Oscilloscope Screen Shots</b></caption>
+      <tbody><tr>
+        <td align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/Trig-Burst.png" data-lightbox="maingallery" data-title="Scope shot of Timing from Trigger pulse to Burst start"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/Trig-Burst.png" width="480" height="234" border="0" alt="Scope shot of Timing from Trigger pulse to Burst start" title="Scope shot of Timing from Trigger pulse to Burst start (Gallery Image - 4 of 6)"></a>
+            <br>Scope shot of Timing from Trigger pulse to Burst start
+</td>
+        <td align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/TX-Burst-Time.png" data-lightbox="maingallery" data-title="Scope shot of Timing for burst to start of Echo pulse"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/TX-Burst-Time.png" width="480" height="234" border="0" alt="Scope shot of Timing for burst to start of Echo pulse" title="Scope shot of Timing for burst to start of Echo pulse (Gallery Image - 5 of 6)"></a>
+            <br>Scope shot of Timing for burst to start of Echo pulse
+</td>
+      </tr>
+    </tbody></table>
+    <p align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></p>
+    <a name="version"></a><h3>Version of HC-SRO4</h3>
+    <p>The HC-SR04 is a cheap Ultrasonic Distance Sensor available all over the price very cheap and fairly reliable, however its accuracy is +/- 3 mm.
+       This accuracy means that anything less than 1 cm measurement is at best a guess.</p>
+    <table width="100%" align="center" border="0">
+     <caption><b>Revision of HC-SR04 as of January 2017</b></caption>
+     <tbody><tr>
+       <td align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/hc-sr04-board-t.jpg" data-lightbox="maingallery" data-title="Top View of HC-SR04 board"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/hc-sr04-board-t.jpg" width="443" height="263" border="0" alt="Top View of HC-SR04 board" title="Top View of HC-SR04 board (Gallery Image - 1 of 6)"></a>
+            <br>Top View of HC-SR04 board
+</td>
+       <td align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/hc-sr04-board-b.jpg" data-lightbox="maingallery" data-title="Bottom View of HC-SR04 board"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/hc-sr04-board-b.jpg" width="442" height="269" border="0" alt="Bottom View of HC-SR04 board" title="Bottom View of HC-SR04 board (Gallery Image - 2 of 6)"></a>
+            <br>Bottom View of HC-SR04 board
+</td>
+     </tr>
+    </tbody></table>
+    <p align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></p>
+    <a name="circuit"></a><h3>HC-SRO4 Circuit Diagram</h3>
+    <p>As stated before as I had a batch of these sensors to test and at least one had a faulty component for sure I did some reverse engineering
+       side by side comparisons between working and failing units. Along with searchs online that got me to circuit descriptions and circuit
+       diagrams, but these were <b>earlier</b> revisions of the circuit, but good starting points. The main sites you should also look at for
+       alternative viewpoints are -</p>
+    <ul>
+      <li><a href="https://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html" target="_blank">Emils Projects</a> oldest
+          revision of board found, but detailed description.</li>
+      <li><a href="https://hackaday.io/project/5903-sonar-for-the-visually-impaired/log/20061-ultrasonic-module-lets-get-physical" target="_blank">
+          K.C. Lee</a> newer revision which is probably revision before board I have</li>
+      <li><a href="http://mc-computing.com/Hardware_Platforms/Arduino/HC-SR04_Ultrasonic_Sensor.html" target="_blank">Robert Clemenzi</a> Another
+          site with links to the other two and discusses issues with some units I believe now fixed</li>
+      <li><a href="http://www.analog.com/en/design-center/reference-designs/hardware-reference-design/circuits-from-the-lab/cn0343.html#rd-overview" target="_blank">Application Note CN0343</a> Analog Devices document on Ultrasonics with more physics</li>
+    </ul>
+    <p>All the software examples use Arduino things like builtin functions pulseIn() or libraries like <i>Ping</i> or <i>NewPing</i>, whilst
+       you can use these for your software as discussed in <a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/betterecho.php">betterecho</a>, I find these have too many overheads or issues.</p>
+    <p>Having looked at the circuit diagrams on these sites and reverse engineering, I draw up a circuit in my CAD software and produced much smaller
+       file size diagrams, that were easier for me to follow and use. The circuit is shown below and the link to a PDF version of the circuit.</p>
+    <p>My version of circuit diagram is available in <a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/HC-SR04-cct.pdf" target="_blank">PDF version here</a> (size 22 kB) or viewable on screen below</p>
+<a href="./PC Services - Circuit Ultrasonic Range Sensing_files/HC-SR04-cct(1).png" data-lightbox="maingallery" data-title="HC-SR04 Circuit Diagram (click to enlarge)"><img src="./PC Services - Circuit Ultrasonic Range Sensing_files/HC-SR04-cct.png" width="522" height="357" border="0" alt="HC-SR04 Circuit Diagram (click to enlarge)" title="HC-SR04 Circuit Diagram (click to enlarge) (Gallery Image - 6 of 6)"></a>
+            <br>HC-SR04 Circuit Diagram (click to enlarge)
+<p></p>
+    <p align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></p>
+    <a name="description"></a><h3>HC-SRO4 Circuit Description</h3>
+    <p>The Unit consists of three parts - microcontroller, Transmitter and Receiver (with associated amplifiers). Please use the circuit diagram above for
+       reference to this description.</p>
+    <h4>Microcontroller U1</h4>
+    <p>The heart of the unit is is the <a href="https://www.google.com/search?q=em78p153">EM78P153 8-bit microprocessor from Elan</a> (U1). This handles</p>
+    <ul>
+      <li>Interface to host (Trig and Echo pins)</li>
+      <li>Timing and sending antiphase burst for ping to send</li>
+      <li>Squelch control, where by during Ultrasonic transmit, a threshold for the incoming reciver is effectively disabled to avoid bogus echos.
+          This is important as whilst sending vibrations from the TX transducer will be received through PCB and by air between the transducers on the RX
+          transducer.</li>
+      <li>Receiving the processed signal from the Receiver section as an interrupt (Rising edge), this is actually a filtered and much amplified
+          version of all the echos received.</li>
+    </ul>
+    <h4>Transmitter U3</h4>
+    <p>On older revisions this was a MAX232, as of yet as the pin out is vastly different I am not sure what actual device it is as the numbers have been
+       scrubbed off. It appears to be some form of transistor array device or Buffer device or ASIC. However some of its functionality has been found out.</p>
+    <ul>
+      <li>Voltage drive to TX transducer from the antiphase TX signals from the micro (U1). By using antiphase signals, a differential voltage can be
+          driven across the transducer effectively +/-5V across the transducer. The chip provides a higher current driver than the micro can produce.
+          I suspect these outputs are actually some form of PIN driver or H-Bridge driver, for high current drive.</li>
+      <li>The other part is two transistors with a common base pin, collectors available on other pins. this transistot forms part of the feedback
+          loop on the final part of the receiver chain, to change an analog signal into a TTL type digital signal, and is basically a switch driven
+          by the final stage to pull signal to 0V and pulled up to 5V by a resistor (R17)</li>
+    </ul>
+    <h4>Receiver U2</h4>
+    <p>The quad op-amp IC (U2) is a LM324 which is a fairly old low grade 1 MHz unity gain bandwidth device, with limited range I/O (outputs do not go
+       to rails). It is a ubiquitous and cheap device. Considering some of the gain levels used in the stages means that 40 kHz signals are passing
+       through stages with around 100 kHz bandwidth. Large offset errors may effect some of the stages as well, when gained up.</p>
+    <p>The receiver is a chain of three op-amps as small signal stages all AC-coupled, being used in single rail configuration, the final stage is a
+       variable threshold hysteris comparator with output switch. Each of the first three stages are an inverting amplifier or filter with positive input
+       to mid-rail supply rail to apply offset for single power rail operation. the mid-rail supply is provided by R14, R15 and C6.</p><p>
+    </p><p>C1, C3 and C4 provide AC coupling between the stages.</p>
+    <p>First stage (U2D, R1 and R2) is an inverting amplifier of the RX transducer signal, with gain around 5.6 (allowing for tolerances). The output
+       is attenuated with reference to mid-rail by R3 and R4.</p>
+    <p>Second stage (U2C, C2, C3 and R5) is a bandpass filter hopefully with tolerances centred around 40 kHz the frequency of the emitted pulses.</p><p>
+    </p><p>Third stage (U2B, R6 and R7) is another amplifier with gain of approximately 10.</p>
+    <p>The last op-amp stage is a variable threshold hysteris comparator with output switch, the output witch is formed by a transistor in U3 and pullup
+       resistor R17. This output is part of the feedback on the hysterisis comparator via R9. R10 and R16 si a potential divider to get the correct base
+       voltage for the transistor in U3. The variable threshold comes from R13 and R12, with decoupling and ground path filtering by C8 and R11. One end
+       of R13 is tied to mid rail for normal threshold, whilst a 'Threshold' signal from the micro via R12 pulls the threshold on pin 2 closer to ground,
+       thus forcing the output higher and the transistor in U3 on, to clamp the signal to the micro during TX burst transmission. Thus avoiding
+       false echos too early.</p>
+    <p>Unfortunately I have found that problems in this area like R16 open circuit or bad (wrong value) parts like C8 can cause all sorts of problems
+       with erratic readings. personally this would have been better with a proper Schmitt Trigger op-amp stage with HARD threshold control without C8
+       better timed from the micro from start of Trig pulse to end of TX burst (setting ECHO HIGH).</p>
+    <p>Personally instead of changing the threshold, it would be better to clamp the input from the sensor by a FET across the sensor pins.</p>
+    <p align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></p>
+    <a name="faults"></a><h3>Known Hardware Faults On Faulty Units</h3>
+    <table align="center" width="90%" border="1" cellspacing="0" cellpadding="4">
+      <tbody><tr align="center">
+        <th width="50%"><b>Symptom</b></th>
+        <th width="50%"><b>First Point to Check</b></th>
+      </tr>
+      <tr>
+        <td>Only able to detect large objects (e.g. A4 paper size) at around minimum distance of 30 cm</td>
+        <td>R16 on one unit found to be open circuit should be 3k9 0603 size<br>
+            Causes the input signal to the micro to be clamped for too long</td>
+      </tr>
+      <tr>
+        <td>Unable to get any readings, power connections good and TRIG pulse is valid, no echo</td>
+        <td>Metal disc rattling inside TX or RX Ultrasonic transducers (behind the grill)<br>
+            Replace unit or transducer on unit</td>
+      </tr>
+      <tr>
+        <td>Valid readings when sampled at 1 second intervals, but random reading or many errors when sampled faster<br>
+            Readings interspersed with many timeouts (time of 0)</td>
+        <td> Coming Shortly </td>
+      </tr>
+    </tbody></table>
+    <table border="0" width="100%">
+      <tbody><tr>
+       <td nowrap="">&lt;---- <a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/betterecho.php">Better Software Example</a></td>
+       <td align="center"><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php#top">Back to top</a></td>
+       <td align="right" nowrap=""><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/advanced.php">Advanced analysis of the Ultrasonics</a> ----&gt;</td>
+      </tr>
+    </tbody></table>
+    <p>Previous Pages cover</p>
+    <ul>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/index.php">Introduction and physics using Ultrasonics</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/simpleecho.php">Arduino based example - Simple Version</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/betterecho.php">Arduino based example - Better Example with more details</a></li>
+      <li><a href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/advanced.php">Advanced and deeper analysis of the Ultrasonics</a></li>
+    </ul>
+    <p>Interested in something similar <a href="http://www.pcserviceselectronics.co.uk/contact.php?user=sales&amp;subject=ultrasonics"><i>contact sales</i></a>.</p>
+    </td>
+  </tr>
+</tbody></table>
+<table border="0" align="CENTER">
+  <tbody><tr valign="middle">
+    <td><font size="-3">© 2017 onwards by PC Services, Reading UK</font></td>
+    <td><font size="-3">Last Updated: 17<sup>th</sup> May 2018</font></td>
+  </tr>
+  <tr valign="middle">
+    <td colspan="2" align="center"><font size="-3">If you encounter problems with this page please email your comments to <a href="http://www.pcserviceselectronics.co.uk/contact.php?user=web"><i>webmaster</i></a></font></td>
+  </tr>
+</tbody></table>
+
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: block; width: 1903px; height: 4281px;"></div><div id="lightbox" class="lightbox" style="display: block; top: 2150px; left: 0px;"><div class="lb-outerContainer" style="width: 1095px; height: 752px;"><div class="lb-container"><img class="lb-image" src="./PC Services - Circuit Ultrasonic Range Sensing_files/HC-SR04-cct(1).png" style="display: block; width: 1087px; height: 744px;"><div class="lb-nav" style="display: block;"><a class="lb-prev" href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php" style="display: block;"></a><a class="lb-next" href="http://www.pcserviceselectronics.co.uk/arduino/Ultrasonic/electronics.php" style="display: none;"></a></div><div class="lb-loader" style="display: none;"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer" style="display: block; width: 1095px;"><div class="lb-data"><div class="lb-details"><span class="lb-caption" style="display: inline;">HC-SR04 Circuit Diagram (click to enlarge)</span><span class="lb-number">Image 6 of 6</span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
