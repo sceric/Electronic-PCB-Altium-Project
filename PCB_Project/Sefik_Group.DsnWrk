@@ -8,3 +8,5 @@ ProjectPath=REF\REF.PrjPcb
 ProjectPath=Librarys\Own_Library\Own_Library.LibPkg
 [Project4]
 ProjectPath=Librarys\Librarys_Test\Test_Library\Test_Library.PrjPcb
+[Project5]
+ProjectPath=STM32_Project\STM32_Project.PrjPcb
