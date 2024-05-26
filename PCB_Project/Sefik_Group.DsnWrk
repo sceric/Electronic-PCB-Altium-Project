@@ -5,8 +5,8 @@ ProjectPath=FlightBoard\FlightBoard.PrjPcb
 [Project2]
 ProjectPath=REF\REF.PrjPcb
 [Project3]
-ProjectPath=Librarys\Own_Library\Own_Library.LibPkg
-[Project4]
-ProjectPath=Librarys\Librarys_Test\Test_Library\Test_Library.PrjPcb
-[Project5]
 ProjectPath=STM32_Project\STM32_Project.PrjPcb
+[Project4]
+ProjectPath=Librarys\Own_Library\Own_Library.LibPkg
+[Project5]
+ProjectPath=Librarys\Librarys_Test\Test_Library\Test_Library.PrjPcb
