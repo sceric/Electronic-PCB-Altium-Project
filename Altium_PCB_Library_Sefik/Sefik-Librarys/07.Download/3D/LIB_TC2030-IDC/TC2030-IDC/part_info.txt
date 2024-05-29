@@ -1,0 +1,9 @@
+Manufacturer=Tag Connect
+PartNumber=TC2030-IDC
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2018-02-15 12:09:12
+Downloaded=2024-05-27 20:30:50
+3D=Y

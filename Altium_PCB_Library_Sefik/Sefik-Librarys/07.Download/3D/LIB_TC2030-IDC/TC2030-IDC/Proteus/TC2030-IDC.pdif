@@ -1,0 +1,186 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TC2030-IDC"
+   (description "CABLE ADAPTER 6 POS")
+   (family "CON")
+   (package "TC2030IDC")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/62bc384e093448baaaa63dbd0b9d8707.pdf")
+   (attribute "Geometry.Height" "19mm")
+   (attribute "Manufacturer_Name" "Tag Connect")
+   (attribute "Manufacturer_Part_Number" "TC2030-IDC")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "TC2030-IDC")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "TC2030-IDC"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TC2030IDC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4 3.9)
+      (pt 5.9 3.9)
+      (pt 5.9 -3.9)
+      (pt -4 -3.9)
+      (pt -4 3.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4 3.9)
+      (pt 5.9 3.9)
+      (pt 5.9 -3.9)
+      (pt -4 -3.9)
+      (pt -4 3.9))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5 4.9)
+      (pt 6.9 4.9)
+      (pt 6.9 -4.9)
+      (pt -5 -4.9)
+      (pt -5 4.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 -4.2)
+      (arc (pt -1.000 -4.200) (pt -1.000 -4.250) (pt -0.900 -4.150) (start -180.0) (sweep 180.0))
+      (pt -0.9 -4.2)
+      (arc (pt -0.900 -4.200) (pt -1.000 -4.250) (pt -0.900 -4.150) (start -180.0) (sweep .0))
+      (pt -1 -4.2))))
+   (leg 1 (pt -0.953 -0.635) (padstack 0))
+   (leg 2 (pt -0.953 0.635) (padstack 0))
+   (leg 3 (pt 0.317 -0.635) (padstack 0))
+   (leg 4 (pt 0.317 0.635) (padstack 0))
+   (leg 5 (pt 1.588 -0.635) (padstack 0))
+   (leg 6 (pt 1.588 0.635) (padstack 0))
+   (leg 7 (pt -2.223 -2.540) (padstack 7))
+   (leg 8 (pt -2.223 -0.000) (padstack 8))
+   (leg 9 (pt -2.223 2.540) (padstack 9))
+   (leg 10 (pt 0.952 -2.540) (padstack 10))
+   (leg 11 (pt 0.952 2.540) (padstack 11))
+   (leg 12 (pt 2.857 -1.016) (padstack 12))
+   (leg 13 (pt 2.857 1.016) (padstack 13))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (round 0.783))
+   )
+   (padstack 7
+    (hole 2.451)
+    (plated false)
+    (pad (layer TCOP) (round 1.2255))
+    (pad (layer INNER) (round 1.2255))
+    (pad (layer BCOP) (round 1.2255))
+   )
+   (padstack 8
+    (hole 1.067)
+    (plated false)
+    (pad (layer TCOP) (round 0.5335))
+    (pad (layer INNER) (round 0.5335))
+    (pad (layer BCOP) (round 0.5335))
+   )
+   (padstack 9
+    (hole 2.451)
+    (plated false)
+    (pad (layer TCOP) (round 1.2255))
+    (pad (layer INNER) (round 1.2255))
+    (pad (layer BCOP) (round 1.2255))
+   )
+   (padstack 10
+    (hole 2.451)
+    (plated false)
+    (pad (layer TCOP) (round 1.2255))
+    (pad (layer INNER) (round 1.2255))
+    (pad (layer BCOP) (round 1.2255))
+   )
+   (padstack 11
+    (hole 2.451)
+    (plated false)
+    (pad (layer TCOP) (round 1.2255))
+    (pad (layer INNER) (round 1.2255))
+    (pad (layer BCOP) (round 1.2255))
+   )
+   (padstack 12
+    (hole 1.067)
+    (plated false)
+    (pad (layer TCOP) (round 0.5335))
+    (pad (layer INNER) (round 0.5335))
+    (pad (layer BCOP) (round 0.5335))
+   )
+   (padstack 13
+    (hole 1.067)
+    (plated false)
+    (pad (layer TCOP) (round 0.5335))
+    (pad (layer INNER) (round 0.5335))
+    (pad (layer BCOP) (round 0.5335))
+   )
+   (model "TC2030-IDC.stp"
+    (euler 90 0 0)
+    (offset 0.3499999940395355 0.15000000596046448 1.4600000381469727)
+   )
+  )
+ )
+)

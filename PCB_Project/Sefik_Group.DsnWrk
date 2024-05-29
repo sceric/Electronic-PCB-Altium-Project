@@ -10,3 +10,5 @@ ProjectPath=STM32_Project\STM32_Project.PrjPcb
 ProjectPath=Librarys\Own_Library\Own_Library.LibPkg
 [Project5]
 ProjectPath=Librarys\Librarys_Test\Test_Library\Test_Library.PrjPcb
+[Project6]
+ProjectPath=..\Altium_PCB_Library_Sefik\Sefik-Librarys\04.PhilsLab Library\Öwn_Library_PhilsLab.LibPkg

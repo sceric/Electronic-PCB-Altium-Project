@@ -1,0 +1,18 @@
+.TC2030-IDC :1 ;CABLE ADAPTER 6 POS
+TC2030IDC
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 13
+*DFN TC2030-IDC
+~!Manufacturer_Name (Tag Connect)
+~!Manufacturer_Part_Number (TC2030-IDC)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/62bc384e093448baaaa63dbd0b9d8707.pdf)
+~!Height (19mm)
+~!3D_Model (TC2030-IDC)
+TC2030-IDC
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
